@@ -19,9 +19,9 @@
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url"
-                          value="jdbc:mysql://218.94.66.98:53307/meng_test"/>
+                          value="jdbc:mysql://localhost:3306/test?serverTimezone=UTC&amp;useSSL=true"/>
                 <property name="username" value="root"/>
-                <property name="password" value="qnsoft"/>
+                <property name="password" value="110119"/>
             </dataSource>
         </environment>
     </environments>
